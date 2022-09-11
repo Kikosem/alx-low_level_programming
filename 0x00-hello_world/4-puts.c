@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 /**
- * main - outputs "Programming...
- * use puts function
- * Return 
+ * main - outputs string
+ * Return: value is 0
  */
 int main(void)
 {
