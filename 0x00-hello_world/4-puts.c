@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * 
+ * main - outputs "Programming...
  * use puts function
- *
- * Return 0
+ * Return 
  */
 int main(void)
 {
