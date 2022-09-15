@@ -1,22 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - generates random number
- * if statements check number
- * Return: Always 0
+ * main - positive or negative
+ * Return: 0
  */
+
 int main(void)
 {
-	int n;
+	int i;
 
-	srand(time(0));
-	n = 0;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
+	i = 0;
+	positive_or_negative(i);
+
 	return (0);
 }
