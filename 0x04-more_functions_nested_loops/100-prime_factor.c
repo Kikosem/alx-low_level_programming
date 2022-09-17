@@ -3,7 +3,6 @@
 
 /**
  * main - finds and prints the largest prime factor
- *
  * Return: 0
  */
 
@@ -22,7 +21,7 @@ int main(void)
 	}
 	for (i = 3; i <= sqrt(n); i = i + 2)
 	{
-		while (n % 1 == 0)
+		while (n % i == 0)
 		{
 			max = i;
 			n = n / 1;
