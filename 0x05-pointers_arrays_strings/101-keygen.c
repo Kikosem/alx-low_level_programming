@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main (void)
+/**
+ * main - generate passwords
+ * Return: Always 0
+ */
+
+int main(void)
 {
 	int myrand;
 	int count;
