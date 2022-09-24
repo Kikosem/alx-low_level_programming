@@ -16,7 +16,7 @@ int main(void)
 		i = j;
 		j = k;
 
-		if (n != 49)
+		if (m != 49)
 			printf("%lu, ", k);
 		else
 			printf("%lu", k);
