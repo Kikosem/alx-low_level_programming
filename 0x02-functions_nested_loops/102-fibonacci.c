@@ -19,7 +19,7 @@ int main(void)
 		if (m != 49)
 			printf("%lu, ", k);
 		else
-			printf("%lu", k);
+			printf("%lu\n", k);
 	}
 	return (0);
 }
